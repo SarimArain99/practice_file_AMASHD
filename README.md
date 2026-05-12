@@ -1,36 +1,180 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Next.js Starter Project
 
-## Getting Started
+A modern web application built with **Next.js**, powered by the **App Router**, optimized fonts, and lightning-fast development experience.
 
-First, run the development server:
+![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue?style=for-the-badge&logo=typescript)
+![Vercel](https://img.shields.io/badge/Deploy-Vercel-black?style=for-the-badge&logo=vercel)
+
+---
+
+## ✨ Features
+
+- ⚡ Built with **Next.js**
+- 📁 App Router support
+- 🎨 Optimized with `next/font`
+- 🔥 Fast Refresh enabled
+- 📱 Responsive & modern setup
+- 🚀 Easy deployment on Vercel
+- 🛠️ TypeScript support
+
+---
+
+## 📦 Tech Stack
+
+| Technology | Description |
+|------------|-------------|
+| Next.js | React Framework for Production |
+| React | UI Library |
+| TypeScript | Static Type Checking |
+| Vercel | Deployment Platform |
+
+---
+
+# 📸 Preview
+
+Add your project screenshot here:
+
+```md
+![Project Preview](./public/preview.png)
+```
+
+---
+
+# ⚙️ Getting Started
+
+## 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+```
+
+## 2️⃣ Navigate to Project Folder
+
+```bash
+cd your-repo-name
+```
+
+## 3️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+---
+
+# 🧪 Run Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Now open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+👉 http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The app will automatically reload whenever you make changes.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+# 📂 Project Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+├── app/
+│   ├── page.tsx
+│   ├── layout.tsx
+│
+├── public/
+├── styles/
+├── package.json
+├── tsconfig.json
+└── README.md
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+# ✏️ Editing the App
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Start editing the homepage by modifying:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+app/page.tsx
+```
+
+Changes are reflected instantly in the browser.
+
+---
+
+# 🎨 Fonts
+
+This project uses:
+
+- [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts)
+- [Geist Font](https://vercel.com/font)
+
+for optimized font loading and better performance.
+
+---
+
+# 📚 Learn More
+
+Useful resources for learning Next.js:
+
+- 📖 [Next.js Documentation](https://nextjs.org/docs)
+- 🎓 [Learn Next.js](https://nextjs.org/learn)
+- 💻 [Next.js GitHub Repository](https://github.com/vercel/next.js)
+
+---
+
+# 🚀 Deployment
+
+The easiest way to deploy your app is using **Vercel**.
+
+## Deploy Instantly
+
+```bash
+npm run build
+```
+
+Or deploy directly via:
+
+👉 https://vercel.com/new
+
+Read more:
+
+- [Next.js Deployment Docs](https://nextjs.org/docs/app/building-your-application/deploying)
+
+---
+
+# 🛠️ Available Scripts
+
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start development server |
+| `npm run build` | Create production build |
+| `npm run start` | Start production server |
+| `npm run lint` | Run ESLint |
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Open a Pull Request
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+# ❤️ Made With Next.js
+
+Built with passion using **Next.js** and **TypeScript**.
