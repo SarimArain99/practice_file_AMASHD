@@ -1,0 +1,13 @@
+"use client";
+import { useEffect, useState } from "react";
+
+export function useFetchData(url: string) {
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    fetch(url)
+      .then((res) => res.json())
+      .then(setData);
+  }, [url]);
+  return data;
+}
