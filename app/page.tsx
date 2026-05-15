@@ -11,13 +11,14 @@ interface UserDataType {
     city: string
     zip: number | string
     geo: {
-      lat: number 
+      lat: number
       lng: number
     }
   }
 }
 
 export default function page() {
+  let myAPI = process.env.NEXT_PUBLIC_OPENAI_API_KEY
   const myData = useFetchData("http://localhost:3000/api/users")
 
   return (
@@ -33,7 +34,7 @@ export default function page() {
           <h2>{user.address.geo.lat}</h2>
           <h2>{user.address.geo.lng}</h2>
 
-          
+
         </div>
       ))}
     </div>
